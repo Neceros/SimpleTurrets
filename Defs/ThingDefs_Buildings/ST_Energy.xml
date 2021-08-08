@@ -4,6 +4,7 @@
 
   <!-- Energy Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_EnergyTurret</defName>
     <label>energy turret</label>
     <description>A portable automatic turret designed to shoot lazers. Does not require ammunition, instead it consumes a large amount power. Powerful chaos and supressive abilities, though low damage output. Might explode out to 6 tiles when damaged, and due to its unstable nature it's more likely to catch fire and explode.</description>
@@ -126,7 +127,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -165,7 +166,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -196,6 +197,7 @@
 
   <!-- EMP Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_STEMPTurret</defName>
     <label>EMP turret</label>
     <description>A portable automatic turret designed to take on mechanoids. Not effective against fleshy targets. Might explode out to 6 tiles when damaged.</description>
@@ -319,7 +321,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -361,7 +363,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>

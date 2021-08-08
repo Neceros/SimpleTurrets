@@ -3,6 +3,7 @@
   
   <!-- Stunning Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_StunningTurret</defName>
     <label>stunning turret</label>
     <description>A portable automatic turret designed to stun an opponent for a short time. Requires medicine to replenish the stunning rounds. This turret does not do damage. Does not explode.</description>
@@ -117,7 +118,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -158,7 +159,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -192,6 +193,7 @@
 
   <!-- Tazing Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_TazingTurret</defName>
     <label>tazing turret</label>
     <description>A portable automatic turret designed to taze a target. Requires medicine to refill the shots after heavy use. This turret does light damage, and will try to down a target. Does not explode.</description>
@@ -313,7 +315,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -354,7 +356,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
