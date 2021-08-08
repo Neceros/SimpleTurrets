@@ -5,6 +5,7 @@
   <!-- ========== Rifle Emplacement ========== -->
 
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_STRifleEmp</defName>
     <label>rifle emplacement</label>
     <description>A fixed gun emplacement with a bolt-action rifle mounted on top. Needs a pawn to function.</description>
@@ -87,7 +88,6 @@
         <texPath>RifleEmplacement_Top</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <menuHidden>true</menuHidden>
     <description>Bolt-action rifle mounted on top of a solid object.</description>
     <soundInteract>Interact_Rifle</soundInteract>
     <tradeability>None</tradeability>
@@ -126,6 +126,7 @@
 <!-- ========== Machine Gun Emplacement ========== -->
 
 <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_STMGEmp</defName>
     <label>machine-gun emplacement</label>
     <description>A fixed gun emplacement with a machine gun mounted on top. Needs a pawn to function.</description>
@@ -212,7 +213,6 @@
         <texPath>MGEmplacement_Top</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <menuHidden>true</menuHidden>
     <description>Machine gun mounted on top of a solid object.</description>
     <soundInteract>Interact_Rifle</soundInteract>
     <tradeability>None</tradeability>

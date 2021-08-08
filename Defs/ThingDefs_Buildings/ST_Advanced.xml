@@ -4,6 +4,7 @@
 
   <!-- Sniper Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_SniperTurret</defName>
     <label>sniper turret</label>
     <description>A portable automatic turret designed to take out targets at long distances. Requires steel to refurbish its barrel after heavy use. Might explode out to 4 tiles when damaged.</description>
@@ -124,7 +125,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -158,6 +158,7 @@
 
   <!-- Standard Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_StandardTurret</defName>
     <label>standard turret</label>
     <description>A portable automatic turret which is a direct upgrade to the mini-turret. Requires steel to refurbish its barrel after heavy use. Might explode out to 4 tiles when damaged.</description>
@@ -277,7 +278,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -310,6 +310,7 @@
 
   <!-- Shredder Turret -->
   <ThingDef ParentName="BuildingBase">
+    <drawerType>MapMeshAndRealTime</drawerType>
     <defName>Turret_ShredderTurret</defName>
     <label>shredder turret</label>
     <description>A portable automatic turret designed to take on targets with low or no armor. Requires steel to refurbish its barrel after heavy use. Very unlikely to explode out to 2 tiles when damaged.</description>
@@ -447,7 +448,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -488,7 +488,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
