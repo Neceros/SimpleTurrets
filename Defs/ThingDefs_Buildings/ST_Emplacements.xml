@@ -88,7 +88,6 @@
         <texPath>RifleEmplacement_Top</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <description>Bolt-action rifle mounted on top of a solid object.</description>
     <soundInteract>Interact_Rifle</soundInteract>
     <tradeability>None</tradeability>
@@ -214,7 +213,6 @@
         <texPath>MGEmplacement_Top</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <description>Machine gun mounted on top of a solid object.</description>
     <soundInteract>Interact_Rifle</soundInteract>
     <tradeability>None</tradeability>

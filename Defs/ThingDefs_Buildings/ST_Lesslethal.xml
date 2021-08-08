@@ -118,7 +118,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -159,7 +158,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -315,7 +313,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -356,7 +353,6 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
